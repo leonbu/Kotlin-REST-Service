@@ -27,7 +27,7 @@ import javax.ws.rs.core.MediaType
 import gcc.kt.rest.Greeting
 
 @Path("/hello")
-@ApplicationPath("/")
+@ApplicationPath("/api")
 @Produces("application/json")
 class HelloService : Application() {
     
